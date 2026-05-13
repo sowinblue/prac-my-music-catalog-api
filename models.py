@@ -10,3 +10,4 @@ class Track(Base):
     key = Column(String)
     genre = Column(String)
     duration_sec = Column(Integer)
+    soundcloud_url = Column(String)
