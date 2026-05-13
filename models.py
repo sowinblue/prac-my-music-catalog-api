@@ -7,7 +7,5 @@ class Track(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     bpm = Column(Integer)
-    key = Column(String)
     genre = Column(String)
-    duration_sec = Column(Integer)
     soundcloud_url = Column(String)
